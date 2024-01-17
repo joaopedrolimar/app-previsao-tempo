@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://source.unsplash.com/1600x1900/?landscape");
+}
+
+.box-wrap{
+    background-color: #000;
+    opacity: 0.8;
+    border-radius: 25px;
+    padding: 25px;
+    width: 95%;
+    max-width: 450px;
+}
+
+.input{
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 20px;
+    background-color:#7c7c7c2b;
+    color: #fff;
+    width: calc(100% - 100px);
+}
+button{
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #7c7c7c;
+    cursor: pointer;
+    float: right;
+}
+
+.img-busca{
+    width: 20px;
+}
+
+.box-media{
+    margin-top: 30px;
+}
+
+.cidade{
+    color: #Fff;
+    font-size: 28px;
+    font-weight: 300;
+}
+
+.temperatura{
+    font-size: 20px;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.box{
+    display: flex;
+    align-items:center ;
+    margin-top: 20px;
+}
+
+.prev{
+    color: #fff;
+    margin-left: 20px;
+    text-transform: capitalize;
+}
+
+.umidade{
+    color: #fff;
+    margin-top: 20px;
+}
+
